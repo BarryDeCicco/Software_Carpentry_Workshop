@@ -1,0 +1,29 @@
+
+
+C:\Users\Barry\OneDrive
+
+***For loop:
+
+for filename in basilisk.dat unicorn.dat ; do  head -3 $filename; done
+
+
+***Shell script taking input:
+
+Shell sript:  head -n 15 "$1" | tail  -n 5
+
+Command to run:  bash [script name] [input file name]
+
+This one has three arguments:  head -n "$2" "$1" | tail  -n  "$3"
+
+Command to run:  bash [script name] [input file name] [head row count] [tail row count]
+
+*** Accessing old commands:
+
+history - will list all old commands (can redirect into a text file)
+
+!57 - would pull up the 57th command in history
+!!  - would pull up the last command
+!$  - (not sure)
+
+
+
